@@ -103,6 +103,9 @@ nav {
   padding: 15px;
   display: flex;
   justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 nav a {
@@ -175,6 +178,7 @@ footer {
   padding: 15px 0;
   font-size: 0.9rem;
 }
+
 
 .case-studies article {
   margin: 20px auto;
